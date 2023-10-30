@@ -15,6 +15,6 @@ Similar parameters of metal complexes and photocatalysts were taken from [paper]
 
 Our model studied on classical chemical descriptors, as a Morgan Fingerprints, MACCS Fingerprints, prepared by RDKIT packet, for metal complex we use combination of SLATM (from qml packet), Coulomb Matrix (from openbabel packet) and Bag of Bonds (from chemreps packet), additionaly Coulomb matrix and Bag of Bonds were subjected a PCA procedure due to the large size of the data. All preparations of datasets we publish in repository (named it) and conефшты information about the target molecule and the solvent in which the measurement experiment was carried out. 
 
-Persistence Barcodes features (sum, mean, std, entropy of H0,H1,H2) were prepared by ripser package. The way of preparation: the 3D structure of compound was transform for a point cloud, then ripser package prepared persistence barcodes for H0, H1, H2 homologies. From resulting barcodes were prepared sum, mean, std and entropy for all homologies.
+Persistence Barcodes features (sum, mean, std, entropy of H0, H1, H2) were prepared by ripser package. The way of preparation: the 3D structure of compound was transform for a point cloud, then ripser package prepared persistence barcodes for H0, H1, H2 homologies. From resulting barcodes were prepared sum, mean, std and entropy for all homologies.
 
 
