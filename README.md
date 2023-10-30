@@ -1,4 +1,4 @@
-# Calssical machine learning approach for photodynamics properties prediction of photoredox catalyst
+# Classical machine learning approach for photodynamics properties prediction of photoredox catalyst
 
 Photocatalysis is a rapidly developing area of chemistry, in which the creation of new substances capable of converting the energy of visible light into reaction energy is a fundamental task.
 
@@ -7,7 +7,7 @@ Our repositorie introduce python notebooks and fine-tubbed models, that can pred
 
 ![Graphical_abstract_2](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/a75067e8-3a85-4244-9548-e6040f6c9d30)
 
-##Preparation of data
+## Preparation of data
 
 The list of organic molecules, solvents, absorption wavelength, emission wavelength and quantum yields were taken from [paper](https://www.nature.com/articles/s41597-020-00634-8). All corresponds structures was optimized by GFN2-xTB functionals.
 
