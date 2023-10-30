@@ -5,7 +5,8 @@ Photocatalysis is a rapidly developing area of chemistry, in which the creation 
 Classical approaches based on human intuition are often quite complex, and quantum mechanical calculations of the photodynamic properties of molecules are cumbersome and time-consuming. Machine learning approach solve time problem, but that work only for organic compound. 
 Our repositorie introduce python notebooks and fine-tubbed models, that can predict photodynamics properties like a absorprion, emission wavelength and quantum yield of fluorescence not only organic compounds, but metalloroganic and metalorganic complex.
 
-![Graphical_abstract _4](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/040654ed-75a1-4fc0-a088-f7a32351e4f6)
+![Graphical_abstract _4](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/baa7d028-31b1-4d2f-9d0d-e23b00215197)
+
 
 
 
@@ -20,7 +21,8 @@ Our model studied on classical chemical descriptors, as a Morgan Fingerprints, M
 
 Persistence Barcodes features (sum, mean, std, entropy of H0, H1, H2) were prepared by ripser package. The way of preparation: the 3D structure of compound was transform for a point cloud, then ripser package prepared persistence barcodes for H0, H1, H2 homologies. From resulting barcodes were prepared sum, mean, std and entropy for all homologies.
 
-![persistent_homology](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/8ddfc70c-d995-4855-a8ce-8bf8a5da981c)
+![persistent_homology](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/330e2b50-c959-449f-b662-83aff6bdc519)
+
 
 ## Model Validation
 
