@@ -4,7 +4,6 @@ Photocatalysis is a rapidly developing area of chemistry, in which the creation 
 
 Classical approaches based on human intuition are often quite complex, and quantum mechanical calculations of the photodynamic properties of molecules are cumbersome and time-consuming. Machine learning approach solve time problem, but that work only for organic compound. 
 Our repositorie introduce python notebooks and fine-tubbed models, that can predict photodynamics properties like a absorprion, emission wavelength and quantum yield of fluorescence not only organic compounds, but metalloroganic and metalorganic complex.
-
 ![Graphical_abstract](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/56fd1668-7e40-41e9-8211-280dda4786e0)
 
 
