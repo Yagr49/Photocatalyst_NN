@@ -25,7 +25,8 @@ Persistence Barcodes features (sum, mean, std, entropy of H0, H1, H2) were prepa
 
 A combination of Coulomb matrix and MorganFingerprints was prepared by taking 10 atoms part of metal complex Coulomb matrix and ligand's MorganFingerprints.
 
-![Coulomb_matrix_pict](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/4200cdf1-22bc-4a8b-8909-5eeed11e2a8a)
+![Coulomb_matrix_pict](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/c0c99e93-21ef-451f-9200-0998cf76bd62)
+
 
 
 
