@@ -23,8 +23,7 @@ Persistence Barcodes features (sum, mean, std, entropy of H0, H1, H2) were prepa
 
 ![persistent_homology](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/330e2b50-c959-449f-b662-83aff6bdc519)
 
-A combination of Coulomb matrix and MorganFingerprints was prepared by taking 10 atoms part of metal complex Coulomb matrix and ligand's MorganFingerprints.
-
+A combination of Coulomb matrix and MorganFingerprints was prepared by taking 10 atoms part of metal complex Coulomb matrix and ligand's MorganFingerprints. The resulting metal complexes contain information about the environment of the largest atom and the ligands of the metal complexes; adding topological features allows you to enter information about the entire structure.
 
 ![Coulomb_matrix_pict](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/9c7e2980-3461-4e02-81f9-d99bcfe62748)
 
@@ -32,6 +31,11 @@ A combination of Coulomb matrix and MorganFingerprints was prepared by taking 10
 
 
 ## Model Validation
+
+We tested the most widely used classical machine learning algorithms (gradient boosting, decision trees, KernelRidgeRegresson) on a combination of chemical descriptors for absorption wavelength, emission wavelength, and quantum yield.
+
+
+![Heatmap_abs](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/8d5e8bf5-8429-4dc9-8422-62174ddbf842)
 
 
 
