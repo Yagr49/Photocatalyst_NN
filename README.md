@@ -38,4 +38,15 @@ We tested the most widely used classical machine learning algorithms (gradient b
 ![Heatmap_abs](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/8d5e8bf5-8429-4dc9-8422-62174ddbf842)
 
 
+## Check model on organic compounds
+We took SLATM + topology and Coulomb Matrix + MorganFingerprints + topology as lead features. The best result we getted on XGBoost and CatBoost Regressor model with Optuna Package, the picture below demostrate coorelation and MAE for resulting model. SLATM and Coulomb demostrate the same metrics, but Coulomb matrix slightly better. For future using model SLATM prepared more easily, Coulomb Matrix combination.
+
+![Picture_corr](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/df0e7113-a6bf-414d-968c-1b0609a6f06f)
+
+## Validate approach on metal complexes
+
+We validate the best approach on a small metall complex, CatBoost model perform the best result. SLATM and Coulomb Matrix approach show the same result. We compare machine learning approach result with Quantum calculation result for absorption, the picture below demostrate RMSE and MAE for each approach.
+
+![Metal_error](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/09bc36fe-8ebe-49b9-ad5b-0cb6ff1d76d5)
+
 
