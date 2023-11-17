@@ -47,6 +47,7 @@ We took SLATM + topology and Coulomb Matrix + MorganFingerprints + topology as l
 
 We validate the best approach on a small metall complex, CatBoost model perform the best result. SLATM and Coulomb Matrix approach show the same result. We compare machine learning approach result with Quantum calculation result for absorption, the picture below demostrate RMSE and MAE for each approach.
 
-![Metal_error](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/09bc36fe-8ebe-49b9-ad5b-0cb6ff1d76d5)
+![Metal_error](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/81dad4df-7b24-46cc-a0c1-87ebcc445a5c)
+
 
 
