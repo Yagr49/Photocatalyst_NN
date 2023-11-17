@@ -13,9 +13,9 @@ Our repositorie introduce python notebooks and fine-tubbed models, that can pred
 
 ## Preparation of data
 
-The list of organic molecules, solvents, absorption wavelength, emission wavelength and quantum yields were taken from [paper](https://www.nature.com/articles/s41597-020-00634-8). All corresponds structures was optimized by GFN2-xTB functionals.
+The list of organic molecules, solvents, absorption wavelength, emission wavelength and quantum yields were taken from [paper](https://www.nature.com/articles/s41597-020-00634-8). All corresponds structures was optimized by GFN2-xTB functional.
 
-Similar parameters of metal complexes and photocatalysts were taken from [paper](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-1390-9065). All corresponds structures was optimized by GFN2-xTB functionals.
+Similar parameters of metal complexes and photocatalysts were taken from [paper](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-1390-9065). All corresponds structures was optimized by GFN2-xTB functional.
 
 Our model studied on classical chemical descriptors, as a Morgan Fingerprints, MACCS Fingerprints, prepared by RDKIT packet, for metal complex we use combination of SLATM (from qml packet), Coulomb Matrix (from openbabel packet) and Bag of Bonds (from chemreps packet), additionaly Coulomb matrix and Bag of Bonds were subjected a PCA procedure due to the large size of the data. All preparations of datasets we publish in repository (named it) and conclude information about the target molecule and the solvent in which the measurement experiment was carried out. 
 
