@@ -30,7 +30,7 @@ A combination of Coulomb matrix and MorganFingerprints was prepared by taking 10
 
 
 
-## Model Validation
+## Selection of descriptors and models
 
 We tested the most widely used classical machine learning algorithms (gradient boosting, decision trees, KernelRidgeRegresson) on a combination of chemical descriptors for absorption wavelength, emission wavelength, and quantum yield.
 
