@@ -13,7 +13,7 @@ Our repositorie introduce python notebooks and fine-tubbed models, that can pred
 
 ## Preparation of data
 
-The list of organic molecules, solvents, absorption wavelength, emission wavelength and quantum yields were taken from [paper](https://www.nature.com/articles/s41597-020-00634-8). All corresponds structures was optimized by GFN2-xTB functional.
+The list of organic molecules, solvents, absorption wavelength, emission wavelength and quantum yields were taken from [paper](https://www.nature.com/articles/s41597-020-00634-8). All corresponds structures was optimized by [GFN2-xTB](https://xtb-docs.readthedocs.io/en/latest/) functional.
 
 Similar parameters of metal complexes and photocatalysts were taken from [paper](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-1390-9065). All corresponds structures was optimized by GFN2-xTB functional.
 
