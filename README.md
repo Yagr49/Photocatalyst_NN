@@ -49,6 +49,8 @@ We validate the best approach on a small metall complex, CatBoost model perform 
 
 ![Metal_error](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/195d10db-f8b1-4a07-a8e9-6308ffc774e7)
 
+## How repository work
+
 
 
 
