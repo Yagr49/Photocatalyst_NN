@@ -55,7 +55,7 @@ Datasets and trained models are available at [https://ibm.box.com/v/MoLFormer-da
 
 ```bash
 MSU_AI_Photocatal/
-├── Models
+└── Models
     ├── CatBoost_Absorption_metal_CoulombMatrix.cbm                   # CatBoost model for Absorption wavelenght prediction trained on combination Coulomb Matrix 10x10 + ligand MorganFingerptints + topologies feautures 
     ├── CatBoost_Absorption_metal_SLATM.cbm                           # CatBoost model for Absorption wavelenght prediction trained on combination SLATM + topologies feautures 
     ├── CatBoost_Emission_metal_CoulombMatrix.cbm                     # CatBoost model for Emission wavelenght prediction trained on combination Coulomb Matrix 10x10 + ligand MorganFingerptints + topologies feautures 
@@ -67,17 +67,17 @@ MSU_AI_Photocatal/
     ├── XGB_Emission_org_compound_CoulombMatrix.json                  # XGBoost model for Emission wavelenght prediction trained on combination Coulomb Matrix 10x10 + ligand MorganFingerptints + topologies feautures
     ├── XGB_Emission_org_compound_SLATM.json                          # XGBoost model for Emission wavelenght prediction trained on combination SLATM + topologies feautures
 └── Datasets
-    └──Coordinates_xyz
+    └── Coordinates_xyz
         ├── Metal_complexes_optimize_XTB_coordinates.zip              # Archive of GFN2-xTB optimized metal complexes structures in .xyz format 
         ├── Metal_complexes_solvents_optimize_XTB_coordinates.zip     # Archive of GFN2-xTB optimized metal complex's solvents structures in .xyz format
         ├── Organic_compounds_optimize_MM_coordinates.zip             # Archive of Molecular Mechanics optimized organic compounds structures in .xyz format
         ├── Organic_compounds_optimize_XTB_coordinates.zip            # Archive of GFN2-xTB optimized organic compounds structures in .xyz format
         ├── Organic_compounds_solvents_optimize_XTB_coordinates.zip   # Archive of GFN2-xTB optimized organic compound's solvent structures in .xyz format
-    └──Metal_complexes_descriptors
+    └── Metal_complexes_descriptors
         ├── Metal_complexes_ligands_SMILES.xlsx                       # Dataset of SMILES of ligands corresponding metal complex
-    └──Organic_compounds_descriptors
+    └── Organic_compounds_descriptors
         ├──
-    └──Target_dataset
+    └── Target_dataset
         ├── Metal_complexes_dataset.xlsx                              # Dataset consist Absorption, Emission wavelenght, Molecular weight and SMILES of solvents for metal complex
         ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Imputed Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of solvent for organic compounds
         ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of solvent for organic compounds from [paper](https://www.nature.com/articles/s41597-020-00634-8)
