@@ -91,7 +91,7 @@ To get trained models for organic compounds you should run notebooks from /noteb
 
 To get trained models for metal complexes you should run notebooks from /src/optimization folder or load trained models . Path for input file load from corresponding Google Drive.
 
-The enviroment for run notebooks locally download {enviroment.yml} from /enviroment folder.
+The enviroment for run notebooks locally download `enviroment.yml` from /enviroment folder.
         
 ## Acknowledgements
 
