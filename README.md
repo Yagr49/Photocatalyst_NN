@@ -83,13 +83,13 @@ MSU_AI_Photocatal/
         ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of solvent for organic compounds from [paper](https://www.nature.com/articles/s41597-020-00634-8)
 ```
 
-For descriptors preparation you should run notebooks from `/notebooks/preparing_datasets` folder. Path for input file load from corresponding Google Drive.
+For descriptors preparation you should run notebooks from `/notebooks/preparing_datasets` folder. Path for input file load from corresponding folders in [Google Drive](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O).
 
-For models validation for organic compounds you should run notebooks from `/notebooks/validation` folder. Path for input file load from corresponding Google Drive.
+For models validation for organic compounds you should run notebooks from `/notebooks/validation` folder. Path for input file load from corresponding folders in [Google Drive](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O).
 
-To get trained models for organic compounds you should run notebooks from `/notebooks/optimization` folder or load trained models . Path for input file load from corresponding Google Drive.
+To get trained models for organic compounds you should run notebooks from `/notebooks/optimization` folder or load trained models . Path for input file load from corresponding folders in [Google Drive](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O). 
 
-To get trained models for metal complexes you should run notebooks from `/src/optimization` folder or load trained models . Path for input file load from corresponding Google Drive.
+To get trained models for metal complexes you should run notebooks from `/src/optimization` folder or load trained models . Path for input file load from corresponding folders in [Google Drive](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O).
 
 The enviroment for run notebooks locally download `enviroment.yml` from `/enviroment` folder.
         
