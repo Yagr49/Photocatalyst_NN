@@ -53,7 +53,7 @@ On metall complexes, we verified the optimal methodology, and the [CatBoost](htt
 
 Datasets and trained models are available at [https://ibm.box.com/v/MoLFormer-data](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O)
 
-''' bash
+```bash
 MSU_AI_Photocatal/
 ├── Models
     ├── CatBoost_Absorption_metal_CoulombMatrix.cbm                   # CatBoost model for Absorption wavelenght prediction trained on combination Coulomb Matrix 10x10 + ligand MorganFingerptints + topologies feautures 
@@ -81,7 +81,7 @@ MSU_AI_Photocatal/
         ├── Metal_complexes_dataset.xlsx                              # Dataset consist Absorption, Emission wavelenght, Molecular weight and SMILES of solvents for metal complex
         ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Imputed Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of solvent for organic compounds
         ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of solvent for organic compounds from [paper](https://www.nature.com/articles/s41597-020-00634-8)
-'''
+```
 
 
 For descriptors preparation you should run notebooks from /notebooks/preparing_datasets. Path for input file load from corresponding Google Drive.
