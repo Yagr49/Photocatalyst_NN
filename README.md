@@ -74,13 +74,38 @@ MSU_AI_Photocatal/
         ├── Organic_compounds_optimize_XTB_coordinates.zip            # Archive of GFN2-xTB optimized organic compounds structures in .xyz format
         ├── Organic_compounds_solvents_optimize_XTB_coordinates.zip   # Archive of GFN2-xTB optimized organic compound's solvent structures in .xyz format
     └── Metal_complexes_descriptors
-        ├── Metal_complexes_ligands_SMILES.xlsx                       # Dataset of SMILES of ligands corresponding metal complex
+        ├── Metal_complexes_ligands_SMILES.xlsx                       # SMILES Dataset of ligands corresponding metal complex
+        ├── Metal_complexes_coulomb_matrix_10x10.csv                  # Coulomb Matrix metal complex and solvents Dataset , shape 10x10
+        ├── Metal_complexes_ligands_MorganFingerprints_2048.csv       # Morgan FingerPrints Dataset of ligands corresponding metal complex and solvents
+        ├── SLATM_metal_complexes_with_solv.csv                       # SLATM metal complex and solvents Dataset
+        ├── SLATM_organic_compound_with_solv_metal_inf.csv            # SLATM organic compounds and solvents Dataset with metal complexes charge distribution
     └── Organic_compounds_descriptors
-        ├──
+        ├── SLATM_organic_compounds_with_solv.csv                     # SLATM organic compounds and solvents Dataset
     └── Target_dataset
-        ├── Metal_complexes_dataset.xlsx                              # Dataset consist Absorption, Emission wavelenght, Molecular weight and SMILES of solvents for metal complex
-        ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Imputed Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of solvent for organic compounds
-        ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of solvent for organic compounds from [paper](https://www.nature.com/articles/s41597-020-00634-8)
+        ├── Metal_complexes_dataset.xlsx                              # Dataset consist Absorption, Emission wavelenght, Molecular weight and SMILES of corresponding solvents for metal complex
+        ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Imputed Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of corresponding solvent for organic compounds
+        ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of corresponding solvent for organic compounds from [paper](https://www.nature.com/articles/s41597-020-00634-8)
+    └── Topology
+        ├── topology_features_metal                                   # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complexes
+            ├── diagrams_basic_0_r2scan_conc.csv                      # Example of topology features file
+        ├── topology_features_metal_solvent                           # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complex solvents
+            ├── diagrams_basic_c(cl)cl_conc.csv                       # Example of topology features file
+        ├── XYZ_persistence_barcodes_metal                            # Folder with persistence barcodes features for metal complex solvents
+            ├── diagrams_basic_0_r2scan.pkl                           # Example of persistence barcodes file
+        ├── XYZ_persistence_barcodes_metal                            # Folder with persistence barcodes for metal complex solvents
+            ├── diagrams_basic_cc(=o)n(c)c.pkl                        # Example of persistence barcodes file
+        ├── Topology_features_metal_complex.csv                       # Dataset consist topology features (sum,mean,std,entropy of barcodes) for metal complexes and correspondibg solvents
+        ├── Topology_features_organic_compounds.csv                   # Dataset consist topology features (sum,mean,std,entropy of barcodes) for organic compounds and correspondibg solvents
+    └── Coulomb_matrix
+        ├── Metal_complex                                             # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complexes
+            ├── 0_quad.csv                                            # Example of Coulomb matrix file
+        ├── Metal_complex_solv                                        # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complex solvents
+            ├── CN(C)C=O.csv                                          # Example of Coulomb matrix file
+        ├── Organic_compounds                                         # Folder with persistence barcodes features for metal complex solvents
+            ├── diagrams_basic_0_r2scan.pkl                           # Example of Coulomb matrix file
+        ├── Organic_compounds_solv                                    # Folder with persistence barcodes for metal complex solvents
+            ├── diagrams_basic_cc(=o)n(c)c.pkl                        # Example of Coulomb matrix file
+
 ```
 
 For descriptors preparation you should run notebooks from `/notebooks/preparing_datasets` folder. Path for input file load from corresponding folders in [Google Drive](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O).
