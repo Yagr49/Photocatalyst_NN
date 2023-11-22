@@ -81,6 +81,11 @@ MSU_AI_Photocatal/
         ├── SLATM_organic_compound_with_solv_metal_inf.csv            # SLATM organic compounds and solvents Dataset with metal complexes charge distribution
     └── Organic_compounds_descriptors
         ├── SLATM_organic_compounds_with_solv.csv                     # SLATM organic compounds and solvents Dataset
+        ├── BoB_PCA_organic_compoubs_with_solv.csv                    # Bag of Bonds after PCA for organic compounds and solvents Dataset
+        ├── CM_pca_organic_compounds_with_solv.csv                    # Coulomb Matrix after PCA for organic compounds and solvents Dataset
+        ├── Organic_compounds_coulomb_matrix_10x10.csv                # Coulomb Matrix 10x10 for organic compounds and solvents Dataset
+        ├── Organic_compounds_Morgan_FingerPrints.csv                 # Morgan FingerPrints for organic compounds and solvents Dataset
+        ├── Organic_compounds_MACCS_FingerPrints.csv                  # MACCS FingerPrints for organic compounds and solvents Dataset
     └── Target_dataset
         ├── Metal_complexes_dataset.xlsx                              # Dataset consist Absorption, Emission wavelenght, Molecular weight and SMILES of corresponding solvents for metal complex
         ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Imputed Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of corresponding solvent for organic compounds
