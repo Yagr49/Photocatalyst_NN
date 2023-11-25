@@ -92,24 +92,30 @@ MSU_AI_Photocatal/
         ├── Organic_compound_final_dataset.xlsx                       # Dataset consist Absorption, Emission wavelenght, Quantum Yield, Molecular weight and SMILES of corresponding solvent for organic compounds from [paper](https://www.nature.com/articles/s41597-020-00634-8)
     └── Topology
         ├── topology_features_metal                                   # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complexes
-            ├── diagrams_basic_0_r2scan_conc.csv                      # Example of topology features file
+            ├── diagrams_basic_0_conc.csv                             # Example of topology features file
         ├── topology_features_metal_solvent                           # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complex solvents
             ├── diagrams_basic_c(cl)cl_conc.csv                       # Example of topology features file
         ├── XYZ_persistence_barcodes_metal                            # Folder with persistence barcodes features for metal complex solvents
-            ├── diagrams_basic_0_r2scan.pkl                           # Example of persistence barcodes file
+            ├── diagrams_basic_0.pkl                                  # Example of persistence barcodes file
         ├── XYZ_persistence_barcodes_metal                            # Folder with persistence barcodes for metal complex solvents
             ├── diagrams_basic_cc(=o)n(c)c.pkl                        # Example of persistence barcodes file
-        ├── Topology_features_metal_complex.csv                       # Dataset consist topology features (sum,mean,std,entropy of barcodes) for metal complexes and correspondibg solvents
-        ├── Topology_features_organic_compounds.csv                   # Dataset consist topology features (sum,mean,std,entropy of barcodes) for organic compounds and correspondibg solvents
+        ├── topology_features_organic_compounds                       # Dataset consist topology features (sum,mean,std,entropy of barcodes) for metal complexes and correspondibg solvents
+            ├── diagrams_basic_0_conc.csv                             # Example of topology features file
+        ├── topology_features_organic_compounds_solv                  # Dataset consist topology features (sum,mean,std,entropy of barcodes) for organic compounds and correspondibg solvents
+            ├── diagrams_basic_c(cl)cl_conc.csv                       # Example of topology features file
+        ├── XYZ_persistence_barcodes_organic_compounds                # Folder with persistence barcodes features for metal complex solvents
+            ├── diagrams_basic_0.pkl                                  # Example of persistence barcodes file
+        ├── XYZ_persistence_barcodes_organic_compounds_solv           # Folder with persistence barcodes for metal complex solvents
+            ├── ddiagrams_basic_[2h]c(cl)(cl)cl.pkl                   # Example of persistence barcodes file
     └── Coulomb_matrix
         ├── Metal_complex                                             # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complexes
             ├── 0_quad.csv                                            # Example of Coulomb matrix file
         ├── Metal_complex_solv                                        # Folder with topology features (sum,mean,std,entropy of barcodes) for metal complex solvents
             ├── CN(C)C=O.csv                                          # Example of Coulomb matrix file
         ├── Organic_compounds                                         # Folder with persistence barcodes features for metal complex solvents
-            ├── diagrams_basic_0_r2scan.pkl                           # Example of Coulomb matrix file
+            ├── 0.pkl                                                 # Example of Coulomb matrix file
         ├── Organic_compounds_solv                                    # Folder with persistence barcodes for metal complex solvents
-            ├── diagrams_basic_cc(=o)n(c)c.pkl                        # Example of Coulomb matrix file
+            ├── cc(=o)n(c)c.pkl                                       # Example of Coulomb matrix file
 
 ```
 
