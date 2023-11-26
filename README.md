@@ -51,7 +51,7 @@ On metall complexes, we verified the optimal methodology, and the [CatBoost](htt
 
 ## How repository work
 
-Datasets and trained models are available at [https://ibm.box.com/v/MoLFormer-data](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O)
+Datasets and trained models are available at [Google Drive](https://drive.google.com/drive/u/2/folders/1KzQ7TYHFC6to7_y65IolNAQtIaz7IJ-O)
 
 ```bash
 MSU_AI_Photocatal/
