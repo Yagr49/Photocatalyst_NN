@@ -27,7 +27,7 @@ A combination of Coulomb matrix and MorganFingerprints for metal complexes was p
 
 ![Coulomb_matrix_pict](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/9c7e2980-3461-4e02-81f9-d99bcfe62748)
 
-The idea of combination ligand and metal center come from [Kulik's paper] (https://pubs.rsc.org/en/content/articlelanding/2023/sc/d2sc06150c)
+The idea of combination ligand and metal center come from [Kulik's paper](https://pubs.rsc.org/en/content/articlelanding/2023/sc/d2sc06150c)
 
 To read more about SMILES problem with metal complex checl this [ChemRxiv paper](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/62b8daaf7da6ce76b221a831/original/deep-learning-metal-complex-properties-with-natural-quantum-graphs.pdf).
 
