@@ -36,19 +36,19 @@ To read more about SMILES problem with metal complex checl this [ChemRxiv paper]
 We evaluated the most popular classical machine learning methods (Kernel Ridge Regression, Decision Trees, and Gradient Boosting) using a combination of chemical descriptors for quantum yield, emission wavelength, and absorption wavelength predictions. The SLATM and Coulomb matrix combination with topologies, features, and fingerprints yielded the lowest errors.
 
 
-![Heatmap_abs](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/8d5e8bf5-8429-4dc9-8422-62174ddbf842)
+![Heatmap_abs]<img width="975" height="416" alt="Feature_selection" src="https://github.com/user-attachments/assets/8c0bc857-ab2e-4753-82cd-a44db841cc11" />
+
 
 
 ## Check model on organic compounds
 As lead features, we choose Coulomb Matrix + MorganFingerprints + topology and SLATM + topology. The image below displays the correlation and mean absolute error (MAE) for the final model, which is the best result we were able to get using the [Optuna](https://arxiv.org/abs/1907.10902)  on [XGBoost](https://xgboost.readthedocs.io/en/stable/) and [CatBoost](https://catboost.ai/) Regressor models. The same metrics are shown by SLATM and Coulomb combinations, yet the Coulomb matrix is marginally superior. Because the structure of the ligands must be obtained manually, a model based on the SLATM combination will be constructed more easily for future use than the Coulomb Matrix combination.
 
-![Picture_corr](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/df0e7113-a6bf-414d-968c-1b0609a6f06f)
-
 ## Validate approach on metal complexes
 
 On metall complexes, we verified the optimal methodology, and the [CatBoost](https://catboost.ai/) model yielded the best outcome. The image below shows the RMSE and MAE for each machine learning strategy, and error from quantum calculation for absorption wavelength prediction carried out by [ORCA](https://orcaforum.kofo.mpg.de/).
 
-![Metal_error](https://github.com/Yagr49/Photocatalyst_NN/assets/139890239/195d10db-f8b1-4a07-a8e9-6308ffc774e7)
+![Metal_error]<img width="1376" height="520" alt="image" src="https://github.com/user-attachments/assets/483e557b-7639-4d89-8942-97e7512d9073" />
+
 
 ## How repository work
 
