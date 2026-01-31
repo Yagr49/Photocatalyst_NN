@@ -47,7 +47,8 @@ As lead features, we choose Coulomb Matrix + MorganFingerprints + topology and S
 
 On metall complexes, we verified the optimal methodology, and the [CatBoost](https://catboost.ai/) model yielded the best outcome. The image below shows the RMSE and MAE for each machine learning strategy, and error from quantum calculation for absorption wavelength prediction carried out by [ORCA](https://orcaforum.kofo.mpg.de/).
 
-![Metal_error]<img width="1376" height="520" alt="image" src="https://github.com/user-attachments/assets/483e557b-7639-4d89-8942-97e7512d9073" />
+![Metal_error]
+<img width="624" height="797" alt="image" src="https://github.com/user-attachments/assets/35e09e33-c285-4178-a6e8-e8699ef544a2" />
 
 
 ## How repository work
